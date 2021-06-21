@@ -3,7 +3,7 @@ import os
 import pandas as pd
 from matplotlib import pyplot as plt
 
-archivo=os.path.join(os.getcwd(),'datos_estadisticos.csv')
+archivo=os.path.join(os.getcwd(),'sample_data/datos_estadisticos.csv')
 archivo_csv=open(archivo,"r")
 
 data_set= pd.read_csv(archivo_csv,encoding='utf-8')
